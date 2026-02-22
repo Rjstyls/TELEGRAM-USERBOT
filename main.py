@@ -8,7 +8,6 @@ from flask import Flask
 # --- CONFIGURATION ---
 API_ID = int(os.environ["API_ID"])
 API_HASH = os.environ["API_HASH"]
-BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 TARGET_ID = int(os.environ.get("TARGET_ID", 0))
 TOPIC_ID = os.environ.get("TOPIC_ID")
